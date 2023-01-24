@@ -32,6 +32,8 @@ Realiza:
 
 ## Diagrama de CU 
 
+<img src="img\Tienda_Virtual.png">
+
 ## Especificación de CU:
 
 <div align="center">
@@ -60,10 +62,10 @@ En el presente documento se realiza la especificación de los diferentes actores
 
   | Actor | Cliente |
   |---|---|
-  | Descripción  |  |
+  | Descripción  | Persona que va a realizar pedidos en el sistema |
   | Características  | |
   | Relaciones | _No tiene relaciones con otros actores_ |
-  | Referencias | |   
+  | Referencias | **Asociar una tarjeta**, **Establecer un limite**, **Hacer Pedidos**, **Autenticarse**, **Mostrar productos**, **Disponer de Saldo**, **Registrarse**, **Verificar Stock**. |   
   |  Notas |   |
   | Autor  | _Abián Castañeda Méndez_ |
   |Fecha | _25/01/2023_ |
@@ -72,22 +74,22 @@ En el presente documento se realiza la especificación de los diferentes actores
 
   | Actor | Repartidor |
   |---|---|
-  | Descripción  |  |
+  | Descripción  | Persona que entrega pedidos |
   | Características  | |
   | Relaciones | _No tiene relaciones con otros actores_ |
-  | Referencias | |   
+  | Referencias | **Entrega Pedido** |   
   |  Notas |   |
   | Autor  | _Abián Castañeda Méndez_ |
   |Fecha | _25/01/2023_ |
 
-#### Sistema
+#### Sistema de Cobro
 
-| Actor | Sistema |
+| Actor | Sistema de Cobro |
   |---|---|
-  | Descripción  |  |
+  | Descripción  | Sistema encargado de comprobar pedidos |
   | Características  | |
   | Relaciones | _No tiene relaciones con otros actores_ |
-  | Referencias | |   
+  | Referencias | **Comprobar pedido**, **Confirmar Pedido** |   
   |  Notas |   |
   | Autor  | _Abián Castañeda Méndez_ |
   |Fecha | _25/01/2023_ |
@@ -96,13 +98,163 @@ En el presente documento se realiza la especificación de los diferentes actores
   
 En el presente documento se realiza la especificación de los casos de uso que forman parte de la en la solución propuesta.
 
-#### ?¿
+#### Asociar una tarjeta
 
-|  Caso de Uso	CU.1 |  |
+| Caso de Uso	CU.1 | Asociar una tarjeta |
 |---|---|
 | Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea6).|
-| Actor  |   |
-| Descripción |  |
+| Actor  | Cliente |
+| Descripción | El cliente puede asociar una tarjeta a su cuenta |
+| Flujo básico |  |
+| Pre-condiciones |  |  
+| Post-condiciones  | |  
+|  Requerimientos |  |
+|  Notas |  |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _25/01/2023_ |
+
+#### Establecer un límite
+
+| Caso de Uso	CU.2 | Establecer un límite |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea6).|
+| Actor  | Cliente |
+| Descripción | El cliente puede aumentar o disminuir la cantidad de dinero de la tarjeta que ha asociado a su cuenta |
+| Flujo básico |  |
+| Pre-condiciones |  |  
+| Post-condiciones  | |  
+|  Requerimientos | Disponer de una tarjeta de credito asociada a la cuenta |
+|  Notas |  |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _25/01/2023_ |
+
+#### Hacer pedidos
+
+| Caso de Uso	CU.3 | Hacer pedidos |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea6).|
+| Actor  | Cliente |
+| Descripción | El cliente puede realizar pedidos acerca de los productos que vende la tienda |
+| Flujo básico |  |
+| Pre-condiciones | El cliente debe autenticarse y también debe disponer de saldo |  
+| Post-condiciones  | Al hacer el pedido se le debe mostrar al cliente los productos y por ende si hay de estos en stock |  
+|  Requerimientos | Sistema de autenticación y disponibilidad de saldo |
+|  Notas |  |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _25/01/2023_ |
+
+#### Autentificarse
+
+| Caso de Uso	CU.4 | Autentificarse |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea6).|
+| Actor  | Cliente |
+| Descripción | A la hora de realizar un pedido el cliente debe autenticarse |
+| Flujo básico |  |
+| Pre-condiciones |  |  
+| Post-condiciones  | |  
+|  Requerimientos |  |
+|  Notas |  |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _25/01/2023_ |
+
+#### Mostrar productos
+
+| Caso de Uso	CU.5 | Mostrar productos |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea6).|
+| Actor  | Cliente |
+| Descripción | Cuando un cliente va a realizar un pedido se deben mostrar los productos que puede pedir |
+| Flujo básico |  |
+| Pre-condiciones |  |  
+| Post-condiciones  | Se deben mostrar aquellos productos que estén en stock |  
+|  Requerimientos |  |
+|  Notas |  |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _25/01/2023_ |
+
+#### Verificar Stock
+
+| Caso de Uso	CU.6 | Verificar Stock |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea6).|
+| Actor  | Cliente |
+| Descripción | Se muestran aquellos productos que están en stock |
+| Flujo básico |  |
+| Pre-condiciones | Se debe hacer un pedido y también se deben mostrar los productos que el cliente deba pedir |  
+| Post-condiciones  | |  
+|  Requerimientos |  |
+|  Notas |  |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _25/01/2023_ |
+
+#### Disponer Saldo
+
+| Caso de Uso	CU.7 | Disponer Saldo |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea6).|
+| Actor  | Cliente |
+| Descripción | Los clientes que quieran realizar un pedido tendrán que tener alguna cuenta con saldo disponible |
+| Flujo básico |  |
+| Pre-condiciones | Hacer un pedido y autenticarse |  
+| Post-condiciones  | |  
+|  Requerimientos |  |
+|  Notas |  |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _25/01/2023_ |
+
+#### Registrarse
+
+| Caso de Uso	CU.8 | Registrarse |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea6).|
+| Actor  | Cliente |
+| Descripción | Un cliente puede o no estar registrado previamente pero a la hora de realizar un pedido si debe autenticarse |
+| Flujo básico |  |
+| Pre-condiciones |  |  
+| Post-condiciones  | |  
+|  Requerimientos |  |
+|  Notas |  |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _25/01/2023_ |
+
+#### Comprueba pedidos
+
+| Caso de Uso	CU.9 | Comprueba pedidos |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea6).|
+| Actor  | Sistema de Cobro |
+| Descripción | El sistema de cobro comprueba todos los pedidos pendientes de cobro |
+| Flujo básico |  |
+| Pre-condiciones |  |  
+| Post-condiciones  | Se debe confirmar el pedido y más tarde verificar la disponibilidad de saldo |  
+|  Requerimientos |  |
+|  Notas |  |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _25/01/2023_ |
+
+#### Confirmación de pedido
+
+| Caso de Uso	CU.10 | Confirmación de pedido |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea6).|
+| Actor  | Sistema de Cobro |
+| Descripción | El sistema de cobro confirma un pedido pendiente de un cliente con el saldo necesario |
+| Flujo básico | El sistema de cobro al comprobar un pedido pendiente, cobra de la cuenta de un cliente el saldo y una vez superado dicho proceso se confirma el pedido |
+| Pre-condiciones | Comprobar un pedido pendiente |  
+| Post-condiciones  | Disponibilidad de saldo |  
+|  Requerimientos | Disponer de saldo |
+|  Notas |  |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _25/01/2023_ |
+
+#### Entrega Pedido
+
+| Caso de Uso	CU.11 | Entrega Pedido |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea6).|
+| Actor  | Repartidor |
+| Descripción | El repartidor se encarga de distribuir pedidos |
 | Flujo básico |  |
 | Pre-condiciones |  |  
 | Post-condiciones  | |  
