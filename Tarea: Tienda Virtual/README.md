@@ -44,7 +44,7 @@ Realiza:
   - [Introducción](#introducción).
   - [Descripción](#descripción).
   - [Especificación de actores](#especificación-de-actores).
-  - [Especificación de casos de uso](#especificación-de-casos-de-uso-1).
+  - [Especificación de casos de uso](#especificación-de-casos-de-uso).
 
 ### Introducción
 
