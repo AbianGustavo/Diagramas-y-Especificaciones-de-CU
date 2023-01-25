@@ -37,7 +37,7 @@ Realiza:
 ## Especificación de CU:
 
 <div align="center">
-  <img src="https://www.emprenderalia.com/wp-content/uploads/Crear-una-tienda-online-en-10-pasos-3-meses-y-sin-inversion.jpg" width="300px" />
+  <img src="https://www.emprenderalia.com/wp-content/uploads/Crear-una-tienda-online-en-10-pasos-3-meses-y-sin-inversion.jpg" width="300px"/>
 </div>
 
 ## Índice
