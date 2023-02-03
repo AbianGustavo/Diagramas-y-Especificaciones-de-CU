@@ -390,3 +390,214 @@ En el presente documento se realiza la especificación de los casos de uso que f
 |  Notas | |
 | Autor  | _Abián Castañeda Méndez_ |
 |Fecha | _03/02/2023_ |
+
+#### Alta
+
+| Caso de Uso	CU.21 | Alta |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7).|
+| Actor  | Administrador |
+| Descripción | El administrador puede gestionar las altas en lo referido al campo de "Grupos". |
+| Flujo básico | Autenticarse --> Gestionar Grupos --> Alta |
+| Pre-condiciones | |  
+| Post-condiciones  | |  
+|  Requerimientos | Haberse autenticado y gestionar Grupos. |
+|  Notas | |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _03/02/2023_ |
+
+#### Baja
+
+| Caso de Uso	CU.22 | Baja |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7).|
+| Actor  | Administrador |
+| Descripción | El administrador puede gestionar las bajas en lo referido al campo de "Grupos". |
+| Flujo básico | Autenticarse --> Gestionar Grupos --> Baja |
+| Pre-condiciones | |  
+| Post-condiciones  | |  
+|  Requerimientos | Haberse autenticado y gestionar Grupos. |
+|  Notas | |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _03/02/2023_ |
+
+#### Modificar 
+
+| Caso de Uso	CU.23 | Modificar |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7).|
+| Actor  | Administrador |
+| Descripción | El administrador puede modificar la información en lo referido al campo de "Grupos". |
+| Flujo básico | Autenticarse --> Gestionar Grupos --> Modificar |
+| Pre-condiciones | |  
+| Post-condiciones  | |  
+|  Requerimientos | Haberse autenticado y gestionar Grupos. |
+|  Notas | |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _03/02/2023_ |
+
+#### Consultar
+
+| Caso de Uso	CU.24 | Consultar |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7).|
+| Actor  | Administrador |
+| Descripción | El administrador puede consultar toda la información en lo referido al campo de "Grupos". |
+| Flujo básico | Autenticarse --> Gestionar alumnos --> Consultar |
+| Pre-condiciones | |  
+| Post-condiciones  | |  
+|  Requerimientos | Haberse autenticado y gestionar Grupos. |
+|  Notas | |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _03/02/2023_ |
+
+
+#### Gestión Asignaturas
+
+| Caso de Uso	CU.25 | Gestión Asignaturas |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7).|
+| Actor  | Administrador |
+| Descripción | El administrador puede gestionar el campo de "Asignaturas" |
+| Flujo básico | Autenticarse --> Gestionar Asignaturas |
+| Pre-condiciones | |  
+| Post-condiciones  | |  
+|  Requerimientos | Haberse autenticado. |
+|  Notas | |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _03/02/2023_ |
+
+#### Alta
+
+| Caso de Uso	CU.26 | Alta |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7).|
+| Actor  | Administrador |
+| Descripción | El administrador puede gestionar las altas en lo referido al campo de "Asignaturas". |
+| Flujo básico | Autenticarse --> Gestionar Asignaturas --> Alta |
+| Pre-condiciones | |  
+| Post-condiciones  | |  
+|  Requerimientos | Haberse autenticado y gestionar Asignaturas. |
+|  Notas | |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _03/02/2023_ |
+
+#### Baja
+
+| Caso de Uso	CU.27 | Baja |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7).|
+| Actor  | Administrador |
+| Descripción | El administrador puede gestionar las bajas en lo referido al campo de "Asignaturas". |
+| Flujo básico | Autenticarse --> Gestionar Asignaturas --> Baja |
+| Pre-condiciones | |  
+| Post-condiciones  | |  
+|  Requerimientos | Haberse autenticado y gestionar Asignaturas. |
+|  Notas | |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _03/02/2023_ |
+
+#### Modificar 
+
+| Caso de Uso	CU.28 | Modificar |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7).|
+| Actor  | Administrador |
+| Descripción | El administrador puede modificar la información en lo referido al campo de "Asignaturas". |
+| Flujo básico | Autenticarse --> Gestionar Asignaturas --> Modificar |
+| Pre-condiciones | |  
+| Post-condiciones  | |  
+|  Requerimientos | Haberse autenticado y gestionar Asignaturas. |
+|  Notas | |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _03/02/2023_ |
+
+#### Consultar
+
+| Caso de Uso	CU.29 | Consultar |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7).|
+| Actor  | Administrador |
+| Descripción | El administrador puede consultar toda la información en lo referido al campo de "Asignaturas". |
+| Flujo básico | Autenticarse --> Gestionar Asignaturas --> Consultar |
+| Pre-condiciones | |  
+| Post-condiciones  | |  
+|  Requerimientos | Haberse autenticado y gestionar Asignaturas. |
+|  Notas | |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _03/02/2023_ |
+
+#### Gestión Titulaciones
+
+| Caso de Uso	CU.30 | Gestión Titulaciones |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7).|
+| Actor  | Administrador |
+| Descripción | El administrador puede gestionar el campo de "Titulaciones". |
+| Flujo básico | Autenticarse --> Gestionar Titulaciones |
+| Pre-condiciones | |  
+| Post-condiciones  | |  
+|  Requerimientos | Haberse autenticado. |
+|  Notas | |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _03/02/2023_ |
+
+#### Alta
+
+| Caso de Uso	CU.31 | Alta |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7).|
+| Actor  | Administrador |
+| Descripción | El administrador puede gestionar las altas en lo referido al campo de "Titulaciones". |
+| Flujo básico | Autenticarse --> Gestionar Titulaciones --> Alta |
+| Pre-condiciones | |  
+| Post-condiciones  | |  
+|  Requerimientos | Haberse autenticado y gestionar Titulaciones. |
+|  Notas | |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _03/02/2023_ |
+
+#### Baja
+
+| Caso de Uso	CU.32 | Baja |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7).|
+| Actor  | Administrador |
+| Descripción | El administrador puede gestionar las bajas en lo referido al campo de "Titulaciones". |
+| Flujo básico | Autenticarse --> Gestionar Titulaciones --> Baja |
+| Pre-condiciones | |  
+| Post-condiciones  | |  
+|  Requerimientos | Haberse autenticado y gestionar Titulaciones. |
+|  Notas | |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _03/02/2023_ |
+
+#### Modificar 
+
+| Caso de Uso	CU.33 | Modificar |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7).|
+| Actor  | Administrador |
+| Descripción | El administrador puede modificar la información en lo referido al campo de "Titulaciones". |
+| Flujo básico | Autenticarse --> Gestionar Titulaciones --> Modificar |
+| Pre-condiciones | |  
+| Post-condiciones  | |  
+|  Requerimientos | Haberse autenticado y gestionar Titulaciones. |
+|  Notas | |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _03/02/2023_ |
+
+#### Consultar
+
+| Caso de Uso	CU.34 | Consultar |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7).|
+| Actor  | Administrador |
+| Descripción | El administrador puede consultar toda la información en lo referido al campo de "Titulaciones". |
+| Flujo básico | Autenticarse --> Gestionar Titulaciones --> Consultar |
+| Pre-condiciones | |  
+| Post-condiciones  | |  
+|  Requerimientos | Haberse autenticado y gestionar Titulaciones. |
+|  Notas | |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _03/02/2023_ |
