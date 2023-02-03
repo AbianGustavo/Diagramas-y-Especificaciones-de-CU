@@ -37,6 +37,8 @@ identifique inicialmente como administrador de la aplicación, se deben permitir
 
 ## Diagrama de CU 
 
+<img src="img\Gestion_Centro_Profesores.png">
+
 ## Especificación de CU:
 
 <div align="center">
@@ -61,6 +63,195 @@ Una centro escolar plantea desarrollar una aplicación para gestionar las califi
 
 En el presente documento se realiza la especificación de los diferentes actores que intervienen en la solución propuesta.
 
+#### Profesor
+
+  | Actor | Profesor |
+  |---|---|
+  | Descripción  | El profesor recibe las actas en blanco de las asignaturas de las que es responsable, en formato electrónico. |
+  | Características  | Debe pasar por una autenticación para realizar las acciones. |
+  | Relaciones | _No tiene relaciones con otros actores_ |
+  | Referencias | La información relacionada con el actor se encuentra en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7). |   
+  |  Notas |   |
+  | Autor  | _Abián Castañeda Méndez_ |
+  |Fecha | _03/02/2023_ |
+  
+#### Administrador
+  
+  | Actor | Administrador |
+  |---|---|
+  | Descripción  | El profesor tedrá que identificarse como administrador para poder realizar funciones extras a las que ya podía realizar siendo profesor. |
+  | Características  | Debe pasar por una autenticación para realizar las acciones. |
+  | Relaciones | Se relaciona con el Profesor dado que puede realizar las mismas acciones que el anteriormente mencionado. |
+  | Referencias | La información relacionada con el actor se encuentra en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7). |   
+  |  Notas |   |
+  | Autor  | _Abián Castañeda Méndez_ |
+  |Fecha | _03/02/2023_ |
+
 ### Especificación de Casos de uso
   
 En el presente documento se realiza la especificación de los casos de uso que forman parte de la en la solución propuesta.
+
+#### Autenticarse
+
+| Caso de Uso	CU.1 | Autenticarse |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7).|
+| Actor  | Profesor |
+| Descripción | El profesor debe autenticarse antes de realizar alguna de sus funciones |
+| Flujo básico |  |
+| Pre-condiciones |  |  
+| Post-condiciones  | |  
+|  Requerimientos |  |
+|  Notas |  |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _03/02/2023_ |
+
+#### Poner notas
+
+| Caso de Uso	CU.2 | Poner notas |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7).|
+| Actor  | Profesor |
+| Descripción | El profesor completar un acta con las notas de los alumnos. |
+| Flujo básico | Autenticarse --> Poner las notas en el acta |
+| Pre-condiciones |  |  
+| Post-condiciones  | |  
+|  Requerimientos | Haberse autenticado |
+|  Notas |  |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _03/02/2023_ |
+
+#### Calculadora
+
+| Caso de Uso	CU.3 | Calculadora |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7).|
+| Actor  | Profesor |
+| Descripción | El profesor dispone de una calculadora que le permite realizar las operaciones de suma, resta, multiplicación, división. |
+| Flujo básico | Autenticarse --> Poner las notas en el acta --> Accede a la calculadora |
+| Pre-condiciones |  |  
+| Post-condiciones  | |  
+|  Requerimientos | |
+|  Notas |  |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _03/02/2023_ |
+
+#### Obtener Estadística
+
+| Caso de Uso	CU.4 | Obtener Estadística |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7).|
+| Actor  | Profesor |
+| Descripción | El profesor obtiene una estadística de las calificaciones obtenidas por los alumnos en un determinado grupo de una asignatura. |
+| Flujo básico | Autenticarse --> Obtener estadística |
+| Pre-condiciones |  |  
+| Post-condiciones  | |  
+|  Requerimientos | Haberse autenticado |
+|  Notas |  |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _03/02/2023_ |
+
+#### Consultar información
+
+| Caso de Uso	CU.5 | Consultar información |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7).|
+| Actor  | Profesor |
+| Descripción | El profesor puede consultar información sobre los alumnos |
+| Flujo básico | Autenticarse --> Consultar información |
+| Pre-condiciones |  |  
+| Post-condiciones  | |  
+|  Requerimientos | Haberse autenticado |
+|  Notas |  |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _03/02/2023_ |
+
+#### Gestionar alumno
+
+| Caso de Uso	CU.6 | Gestionar alumno |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7).|
+| Actor  | Profesor |
+| Descripción | El profesor dispone de una variedad de herramientas con las que gestionar al alumno |
+| Flujo básico | Autenticarse --> Gestionar alumno |
+| Pre-condiciones |  |  
+| Post-condiciones  | |  
+|  Requerimientos | Haberse autenticado |
+|  Notas |  |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _03/02/2023_ |
+
+#### Borrar
+
+| Caso de Uso	CU.7 | Borrar |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7).|
+| Actor  | Profesor |
+| Descripción | El profesor borrar al alumno de un acta |
+| Flujo básico | Autenticarse --> Gestionar alumno --> Borrar |
+| Pre-condiciones |  |  
+| Post-condiciones  | Se borra a un alumno de un acta |  
+|  Requerimientos | Haberse autenticado y Gestionar el acta de un alumno |
+|  Notas |  |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _03/02/2023_ |
+
+#### Añadir
+
+| Caso de Uso	CU.8 | Añadir |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7).|
+| Actor  | Profesor |
+| Descripción | El profesor añade a un alumno a un acta |
+| Flujo básico | Autenticarse --> Gestionar alumno --> Añadir |
+| Pre-condiciones |  |  
+| Post-condiciones  | Se añade al alumno a un acta |  
+|  Requerimientos | Haberse autenticado y Gestionar el acta de un alumno |
+|  Notas |  |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _03/02/2023_ |
+
+#### Imprimir
+
+| Caso de Uso	CU.9 | Imprimir |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7).|
+| Actor  | Profesor |
+| Descripción | El profesor puede imprimir una gran variedad de datos |
+| Flujo básico | Autenticarse --> Imprimir |
+| Pre-condiciones |  |  
+| Post-condiciones  | |  
+|  Requerimientos | Haberse autenticado |
+|  Notas |  |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _03/02/2023_ |
+
+#### Actas
+
+| Caso de Uso	CU.10 | Actas |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7).|
+| Actor  | Profesor |
+| Descripción | El profesor puede imprimir las actas |
+| Flujo básico | Autenticarse --> Imprimir --> Imprime las actas |
+| Pre-condiciones |  |  
+| Post-condiciones  | Se imprimen las actas |  
+|  Requerimientos | Haberse autenticado e Imprimir |
+|  Notas |  |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _03/02/2023_ |
+
+#### Lista provisional
+
+| Caso de Uso	CU.11 | Lista provisional |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7).|
+| Actor  | Profesor |
+| Descripción | El profesor puede imprimir la lista provisional de calificaciones. |
+| Flujo básico | Autenticarse --> Imprimir --> Imprime la lista provisional |
+| Pre-condiciones |  |  
+| Post-condiciones  | Se imprime la lista provisional de calificaciones |  
+|  Requerimientos | Haberse autenticado e Imprimir |
+|  Notas |  |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _03/02/2023_ |
