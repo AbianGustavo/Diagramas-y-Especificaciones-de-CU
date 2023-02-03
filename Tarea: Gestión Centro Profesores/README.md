@@ -255,3 +255,138 @@ En el presente documento se realiza la especificación de los casos de uso que f
 |  Notas |  |
 | Autor  | _Abián Castañeda Méndez_ |
 |Fecha | _03/02/2023_ |
+
+#### Integrar
+
+| Caso de Uso	CU.12 | Integrar |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7).|
+| Actor  | Profesor |
+| Descripción | El profesor puede integrar las actas de varios grupos de una misma asignatura en una sola acta. |
+| Flujo básico | Autenticarse --> Integrar |
+| Pre-condiciones |  |  
+| Post-condiciones  | |  
+|  Requerimientos | Haberse autenticado |
+|  Notas |  |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _03/02/2023_ |
+
+#### Grafico Indicativo
+
+| Caso de Uso	CU.13 | Gráfico Indicativo |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7).|
+| Actor  | Profesor |
+| Descripción | El profesor puede visualizar un gráfico indicativo del número de personas que han obtenido una calificación. |
+| Flujo básico | Autenticarse --> Visualizar Gráfico |
+| Pre-condiciones |  |  
+| Post-condiciones  | |  
+|  Requerimientos | Haberse autenticado |
+|  Notas |  |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _03/02/2023_ |
+
+#### Importación
+
+| Caso de Uso	CU.14 | Importación |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7).|
+| Actor  | Profesor |
+| Descripción | El profesor puede importar la lista de alumnos con sus calificaciones. |
+| Flujo básico | Autenticarse --> Importar |
+| Pre-condiciones |  |  
+| Post-condiciones  | |  
+|  Requerimientos | Haberse autenticado |
+|  Notas |  |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _03/02/2023_ |
+
+#### Exportación
+
+| Caso de Uso	CU.15 | Exportación |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7).|
+| Actor  | Profesor |
+| Descripción | El profesor puede exportar la lista de alumnos con sus calificaciones. |
+| Flujo básico | Autenticarse --> Exportar |
+| Pre-condiciones |  |  
+| Post-condiciones  | |  
+|  Requerimientos | Haberse autenticado |
+|  Notas |  |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _03/02/2023_ |
+
+#### Autenticarse
+
+| Caso de Uso	CU.16 | Autenticarse |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7).|
+| Actor  | Administrador |
+| Descripción | El administrador debe autenticarse para realizar funciones extras a las que ya accede como profesor. |
+| Flujo básico | |
+| Pre-condiciones | |  
+| Post-condiciones  | |  
+|  Requerimientos | |
+|  Notas | Aunque parezca que es la misma función que hace el profesor, a mi parecer el administrador debería volverse a autenticar para obtener permisos superiores a los que ya tiene como profesor. |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _03/02/2023_ |
+
+#### Gestión alumnos
+
+| Caso de Uso	CU.17 | Gestión alumnos |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7).|
+| Actor  | Administrador |
+| Descripción | El administrador puede consultar información que tiene que ver con los alumnos |
+| Flujo básico | Autenticarse --> Gestionar alumnos |
+| Pre-condiciones | |  
+| Post-condiciones  | |  
+|  Requerimientos | Haberse autenticado. |
+|  Notas | Algunas de estas funciones que se pueden extender de este caso de uso ya las puede hacer el profesor pero hay otras dos que no dado que se deben obtener permisos de administrador para ello. |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _03/02/2023_ |
+
+#### Modificar 
+
+| Caso de Uso	CU.18 | Modificar |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7).|
+| Actor  | Administrador |
+| Descripción | El administrador puede modificar la información del alumno |
+| Flujo básico | Autenticarse --> Gestionar alumnos --> Modificar |
+| Pre-condiciones | |  
+| Post-condiciones  | |  
+|  Requerimientos | Haberse autenticado y Gestionar alumno |
+|  Notas | |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _03/02/2023_ |
+
+#### Consultar
+
+| Caso de Uso	CU.19 | Consultar |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7).|
+| Actor  | Administrador |
+| Descripción | El administrador puede consultar información relacionada con el alumno |
+| Flujo básico | Autenticarse --> Gestionar alumnos --> Consultar |
+| Pre-condiciones | |  
+| Post-condiciones  | |  
+|  Requerimientos | Haberse autenticado. |
+|  Notas | |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _03/02/2023_ |
+
+#### Gestión Grupos
+
+| Caso de Uso	CU.20 | Gestión Grupos |
+|---|---|
+| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7).|
+| Actor  | Administrador |
+| Descripción | El administrador puede gestionar los grupos, en los que puede consultar el número máximo de alumnos permitidos, si es un grupo de mañana, de tarde o de noche, y cuál es el código empleado para identificar el grupo. |
+| Flujo básico | Autenticarse --> Gestionar Grupos |
+| Pre-condiciones | |  
+| Post-condiciones  | |  
+|  Requerimientos | Haberse autenticado. |
+|  Notas | |
+| Autor  | _Abián Castañeda Méndez_ |
+|Fecha | _03/02/2023_ |
